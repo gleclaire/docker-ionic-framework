@@ -17,7 +17,7 @@ Usage : ionic-framework
 
     sudo docker run -it --rm --name ionic-framework -p 8100:8100 -p 35729:35729 gleclaire/ionic-framework
 
-* App is running on [http://http://192.168.59.103/:8100](http://http://192.168.59.103/:8100)
+* App is running on http://$DOCKER_HOST:8100 which by default is [http://192.168.59.103/:8100](http://192.168.59.103/:8100)
 
 If you have your own ionic sources, you can launch it with:
 
