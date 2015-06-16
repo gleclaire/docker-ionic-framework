@@ -70,4 +70,4 @@ RUN ["/opt/tools/android-accept-licenses.sh", "android update sdk --all --no-ui 
 
 
 WORKDIR ionic-demo
-CMD ["ionic", "serve", "8100", "35729"]
+CMD ["ionic", "serve", "--all", "--port", "8100", "--livereload-port", "35729"]
